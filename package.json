@@ -1,0 +1,19 @@
+{
+  "name": "react-ho",
+  "version": "1.0.0",
+  "description": "React test",
+  "main": "src/App.js",
+  "scripts": {
+    "start":"npx servor ./public --reload",
+    "compile":"babel src --out-dir public/lib",
+    "compile:watch":"babel src --out-dir public/lib --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "isanuric",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-react": "^7.14.5"
+  }
+}
